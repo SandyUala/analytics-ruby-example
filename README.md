@@ -3,15 +3,15 @@ analytics-ruby-example
 
 analytics-ruby is a ruby client for [Astronomer](http://www.astronomer.io), originally authored by Segment.
 
-##Install 
+## Install 
 
 Clone Repo `git clone https://github.com/astronomerio/analytics-ruby-example.git`
 
-##Ruby Example
+## Ruby Example
 
-####1) Change your working directory to analytics-ruby-example/lib/.
+#### 1) Change your working directory to analytics-ruby-example/lib/.
 
-####2) Update test.rb with your appId.
+#### ) Update test.rb with your appId.
 ```
 require './example'
 analytics = Example.new('appId')
@@ -19,15 +19,16 @@ analytics.runExamples
 
 ```
 
-####3) Execute `ruby test.rb`.
+#### 3) Execute `ruby test.rb`.
 
-####4) Check your live stream for events. 
+#### 4) Check your live stream for events. 
 
-##Rails Example
+## Rails Example
 
-####1) Change your working directory analytics-ruby-example/lib/rails-example/example.
+#### 1) Change your working directory analytics-ruby-example/lib/rails-example/example.
 
-####2) Update app/controllers/index_controller.rb with your appId.
+#### 2) Update app/controllers/index_controller.rb with your appId.
+
 ```
 require 'segment/analytics'
 
@@ -49,9 +50,9 @@ class IndexController < ApplicationController
 end
 
 ```
-####3) Execute `rails server`.
+#### 3) Execute `rails server`.
 
-####4) Go to browser and navigate to localhost:3000. 
+#### 4) Go to browser and navigate to localhost:3000. 
 
-####5) Check your live stream for events. 
+#### 5) Check your live stream for events. 
 
