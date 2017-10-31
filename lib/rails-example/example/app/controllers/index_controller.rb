@@ -1,7 +1,7 @@
 require 'segment/analytics'
 
 class IndexController < ApplicationController
-    def home 
+    def home
         analytics = Segment::Analytics.new({
             app_id: 'appId'
         })
